@@ -23,7 +23,14 @@ configuration myConfiguration of endLabelsDemo is
     for myArchitecture
     end for;
 end myConfiguration;
- 
+ --! @code{.markdown}
+--!            ______ 
+--!           |      |
+--!     x1 ->-|      |
+--!           |      |->- y
+--!     x2 ->-|      |
+--!           |______|
+--! @endcode
 package endLabelsPackage is
     constant four:integer := 4;
     type INTEGER is range -2147483647 to 2147483647;
